@@ -109,8 +109,8 @@ header h1 span {
   font-size: 2.5em;
 }
 #about h2 {
-  padding: 20px;
-  font-size: 1.5em;
+  padding: 5px;
+  font-size: 1.3em;
 }
 #about hr {
   opacity: 30%;
@@ -149,8 +149,7 @@ header h1 span {
 
   top: 15%;
   right: 0;
-  /* width: 50%;
-  height: 29%; */
+
   border-bottom: 25vw solid rgb(0, 0, 0);
   border-left: 7vw solid transparent;
   height: 0;
@@ -168,12 +167,12 @@ header h1 span {
 .left-menu-text {
   position: absolute;
   bottom: 15%;
-  /* width: 50%;
-  height: 29%; */
+
   border-bottom: 25vw solid rgb(0, 0, 0);
   border-right: 7vw solid transparent;
   height: 0;
   width: 48vw;
+  padding-left: 5px;
 }
 .left-menu-text h4 {
   display: inline-block;
@@ -190,7 +189,7 @@ header h1 span {
 }
 #menu h3 {
   font-size: 1.6em;
-  display: inline-block;
+  display: block;
   color: white;
   margin-top: 3%;
   margin-right: 25%;
@@ -201,7 +200,6 @@ header h1 span {
   margin-left: 0;
   line-height: 0.9;
   margin-right: 25%;
-  /* margin-left: 4px; */
 }
 #menu li {
   font-size: 9px;
@@ -261,36 +259,6 @@ header h1 span {
   left: 7%;
   top: 10%;
 }
-/* #menu {
-  margin-top: 5px;
-
-  height: 200vw;
-  background: url(./menu.jpg);
-  background-size: cover;
-  color: rgba(255, 255, 255, 0.712);
-}
-#menu hr {
-  border: 1px solid rgb(0, 0, 0);
-  margin-bottom: 17px;
-  opacity: 30%;
-}
-
-#menu h2 {
-  margin-bottom: 8px;
-  margin-top: 20px;
-  margin-left: 40px;
-  font-size: 1.8rem;
-  text-decoration: underline;
-  text-align: left;
-}
-#menu h3 {
-  text-transform: uppercase;
-  margin-left: 40px;
-  margin-right: 35px;
-  font-stretch: semi-expanded;
-  text-align: left;
-  color: rgb(134, 29, 29);
-} */
 
 hr {
   border: 1px solid rgb(0, 0, 0);
@@ -318,8 +286,8 @@ hr {
   margin-bottom: 17px;
 }
 #lock h2 {
-  font-size: 3.2em;
-  padding-top: 15%;
+  font-size: 2em;
+  padding-top: 10%;
 }
 #locations h3 {
   font-size: 1.8em;
@@ -342,8 +310,8 @@ hr {
   margin-bottom: 17px;
 }
 #buck h2 {
-  font-size: 3.2em;
-  padding-top: 15%;
+  font-size: 2em;
+  padding-top: 10%;
 }
 #gallery img {
   width: 100vw;
@@ -388,53 +356,6 @@ hr {
   font-size: 2.5em;
 }
 
-/* .container-contact {
-  width: 100%;
-  background-color: rgba(255, 255, 255, 0.37);
-  margin-top: 50px;
-}
-.form-group {
-  margin-bottom: 1.5em;
-}
-.form-label {
-  font-size: 0.75em;
-  color: red;
-  display: block;
-  opacity: 1;
-}
-.form-control {
-  box-shadow: none;
-  border-radius: 0;
-  border-color: #ccc;
-  border-style: none none solid none;
-  width: 100%;
-  font-size: 1.25em;
-}
-.form-control::placeholder {
-  color: #aaa;
-}
-.form-control:focus {
-  box-shadow: none;
-  border-color: green;
-  outline: none;
-}
-.btn {
-  background: 0 0 #fff;
-  border: 1px solid #aaa;
-  border-radius: 3px;
-  color: red;
-  font-size: 1em;
-  padding: 10px 50px;
-  text-transform: uppercase;
-}
-.btn:hover {
-  border-color: green;
-  color: blue;
-}
-textarea {
-  resize: none;
-} */
-
 .map {
   width: 100vw;
   height: 40vh;
@@ -456,53 +377,6 @@ textarea {
 footer {
   margin-top: 10px;
   margin-bottom: 10px;
-}
-
-@media screen and (max-width: 332px) {
-  #about h2 {
-    padding: 5px;
-    font-size: 1.4em;
-  }
-}
-
-@media screen and (max-width: 308px) {
-  #lock h2 {
-    font-size: 3em;
-    padding-top: 20%;
-  }
-
-  #buck h2 {
-    font-size: 3em;
-    padding-top: 20%;
-  }
-}
-
-@media screen and (max-width: 282px) {
-  #about h2 {
-    padding: 5px;
-    font-size: 1.3em;
-  }
-  #lock h2 {
-    font-size: 2em;
-    padding-top: 10%;
-  }
-
-  #buck h2 {
-    font-size: 2em;
-    padding-top: 10%;
-  }
-}
-
-@media screen and (max-width: 269px) {
-  #lock h2 {
-    font-size: 2em;
-    padding-top: 10%;
-  }
-
-  #buck h2 {
-    font-size: 2em;
-    padding-top: 10%;
-  }
 }
 
 @media screen and (min-width: 450px) {
@@ -669,10 +543,7 @@ footer {
     padding-left: 10%;
     padding-right: 10%;
   }
-  #menu img {
-    width: 100%;
-    margin: 0;
-  }
+
   #buck {
     width: 100%;
   }
@@ -709,6 +580,9 @@ footer {
 }
 
 @media screen and (min-width: 1024px) {
+  body {
+    margin: 0;
+  }
   #about h1 {
     font-size: 4em;
   }
@@ -733,11 +607,7 @@ footer {
     padding-left: 10%;
     padding-right: 10%;
   }
-  #menu img {
-    width: 33%;
-    margin: 0;
-    padding: 0;
-  }
+
   #locations-wrapper {
     display: flex;
   }
