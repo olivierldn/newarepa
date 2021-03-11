@@ -155,14 +155,16 @@ header h1 span {
   height: 0;
   width: 56vw;
 }
+#menu h4 {
+  font-size: 25px;
+  font-weight: 500;
+}
 .right-menu-text h4 {
   display: inline-block;
   position: absolute;
   right: 1.5vw;
   top: 12.5vw;
-  color: #ffffff;
-  font-size: 30px;
-  font-weight: 500;
+  color: #f0f0f0;
 }
 .left-menu-text {
   position: absolute;
@@ -180,8 +182,6 @@ header h1 span {
   right: -2.5vw;
   top: 12.5vw;
   color: #ffffff;
-  font-size: 30px;
-  font-weight: 500;
 }
 #menu h1 {
   margin-bottom: 5px;
