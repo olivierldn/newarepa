@@ -645,3 +645,8 @@ footer {
     font-size: 2.5em;
   }
 }
+
+html,
+body {
+  overflow-x: hidden;
+}
